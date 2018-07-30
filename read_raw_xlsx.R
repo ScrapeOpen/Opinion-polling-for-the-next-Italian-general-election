@@ -11,7 +11,7 @@ formatDate <- function(x, year) {
   }
 }
 
-excel_file <- "~/public_git/ScrapeOpen/Opinion-polling-for-the-next-Italian-general-election/wikipedia_data.xlsx"
+excel_file <- "~/public_git/ScrapeOpen/Opinion-polling-for-the-next-Italian-general-election/raw_xlsx_italian_party_polls.xlsx"
 
 library(readxl)
 sheets <- excel_sheets(excel_file)
