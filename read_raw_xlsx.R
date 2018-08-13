@@ -52,7 +52,7 @@ wikidata_id <-
     'Q1757843' = 'FdI', 'Q1952211' = 'CD', 'Q2152252' = 'RC', 'Q2792033' = 'SC',  'Q47720+Q14924303' = 'PdL/FI', 
     'Q15196039' = 'NCD', 'Q215350-Q14924303' = 'FI', 'SEL/SI', 'Q286140+Q21405813' = 'SI', 
     'Q28962342' = 'AP', 'Q28841838' = 'MDP',  'Q28946245' = 'CP',  'Q44929224' = 'LeU', 
-    'Q46624077' = 'I',  'Q47389793' = 'LCP',  'Q47090559' = 'E+', 'Q46997473' = 'NcI', 'Q46217506' = 'PaP', 
+    'Q46624077' = 'I',  'Q47389793' = 'LCP',  'Q47090559' = '+E', 'Q46997473' = 'NcI', 'Q46217506' = 'PaP', 
     'Q25648673' = 'CPI')
 
 wikipedia_data$wikidata_id <- names(wikidata_id)[match(wikipedia_data$variable, wikidata_id)]
