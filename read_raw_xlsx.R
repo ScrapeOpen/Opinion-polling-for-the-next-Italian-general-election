@@ -65,5 +65,9 @@ wikipedia_data$wikidata_id[wikipedia_data$variable == "LeU[a]"] <- 'Q44929224'
 
 names(wikipedia_data) <- c("polling_firm", "variable", "value", "date", 'wikidata_id')
 
-write.csv(wikipedia_data, file = '~/public_git/ScrapeOpen/Opinion-polling-for-the-next-Italian-general-election/open_csv_italian_party_polls.csv', row.names = F)
+write.table(wikipedia_data,
+            file = '~/public_git/ScrapeOpen/Opinion-polling-for-the-next-Italian-general-election/open_csv_italian_party_polls.tab',
+            row.names = F,
+            quote = F,
+            sep = '\t')
 
